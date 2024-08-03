@@ -49390,7 +49390,6 @@ o=t.z
 n=A.u(p,o)
 m=q.a
 if(m.c==="Clock In")n.P(0,A.P(["iduser",A.dw(m.e,null),"nis",A.dw(q.a.d,null),"start",new A.aP(Date.now(),!1).j(0),"end","","inradius",q.y<100,"sts",!0,"ket",""],p,o))
-if(q.a.c==="Clock Out")n.P(0,A.P(["end",new A.aP(Date.now(),!1).j(0)],p,o))
 p=$.dn().b
 p===$&&A.b()
 p=p.z
@@ -49467,7 +49466,7 @@ $1(a){return!1},
 $S:242}
 A.axB.prototype={
 $1(a){return this.a1R(a)},
-a1R(a){var s=0,r=A.z(t.H),q=1,p,o=this,n,m,l,k,j,i
+a1R(a){var s=0,r=A.z(t.H),q=1,p,o=this,n,m,l,k,j,i,h
 var $async$$1=A.A(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 m=o.a
@@ -49482,17 +49481,19 @@ break
 case 9:l=$.dn().b
 l===$&&A.b()
 l=l.pr("absen")
-k=t.N
-k=A.dH(l.b,k,k)
-k.m(0,"Prefer","")
+k=t.z
+k=A.P(["end",new A.aP(Date.now(),!1).j(0)],k,k)
+j=t.N
+j=A.dH(l.b,j,j)
+j.m(0,"Prefer","")
 s=11
-return A.E(A.ak_(l.abO(o.b,k,"PATCH"),A.l(l).i("oq.T")).YP("id",m.a.f),$async$$1)
+return A.E(A.ak_(l.abO(k,j,"PATCH"),A.l(l).i("oq.T")).YP("id",m.a.f),$async$$1)
 case 11:case 10:q=1
 s=5
 break
 case 3:q=2
-i=p
-n=A.ah(i)
+h=p
+n=A.ah(h)
 J.bi(n)
 s=5
 break
