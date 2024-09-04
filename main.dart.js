@@ -41344,7 +41344,7 @@ A.Nu.prototype={
 L(a){var s=null
 return new A.B0(B.fF,"Absen Online",A.vS(s,A.aER(B.ap,s,s,B.a0C),!0),!1,s)}}
 A.nQ.prototype={
-ad(){return new A.VU(new A.hY(B.bV,$.aA()),A.iY("hh:mm",null),A.iY("dd-MM-yyyy",null),A.iY("EEEE, dd MMM yyyy","id_ID"),new A.bo(Date.now(),0,!1),new A.bo(Date.now(),0,!1),A.a([],t.cU))}}
+ad(){return new A.VU(new A.hY(B.bV,$.aA()),A.iY("HH:mm",null),A.iY("dd-MM-yyyy",null),A.iY("EEEE, dd MMM yyyy","id_ID"),new A.bo(Date.now(),0,!1),new A.bo(Date.now(),0,!1),A.a([],t.cU))}}
 A.VU.prototype={
 aq(){this.aP()
 var s=$.cW().b
